@@ -42,7 +42,8 @@ jobs:
 
       # vai rodar o npm ci que é o npm install feito para rodar em ambientes de CI
       - name: Install dependencies
-        run: npm ci
+        # run: npm ci
+        run: yarn install --frozen-lockfile
 
       # depois roda um npm run build
       - name: Build
