@@ -49,8 +49,6 @@ jobs:
       - name: Build
         run: npm run build
 
-      - run: git remote prune origin
-
       # e depois criar uma PR com o nome Update design tokens
       - name: Create PR
         uses: peter-evans/create-pull-request@v4
