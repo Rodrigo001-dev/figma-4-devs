@@ -16,7 +16,7 @@ jobs:
     # e os passos para esse job rodar são
     steps:
       # primeiro ele faz o checkout do repositório(basicamente fazer um git pull)
-      - uses: actions/checkout@a81bbbf8298c0fa03ea29cdc473d45769f953675
+      - uses: actions/checkout@v3
 
       # depois de fazer o checkout ele vai criar um arquivo de input o JSON
       - name: Create input JSON
