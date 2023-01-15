@@ -1,9 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Sun, 15 Jan 2023 22:56:02 GMT
+ * Generated on Sun, 15 Jan 2023 23:08:39 GMT
  */
 
 :root {
+  --sizes-2: 8;
+  --sizes-4: 16;
+  --sizes-8: 32;
   --color-white: #ffffff;
   --color-gray-200: #c1c1c4;
   --color-gray-500: #50505c;
@@ -11,4 +14,16 @@
   --color-gray-900: #121214;
   --color-purple-400: #9b74f3;
   --color-purple-500: #885cf6;
+  --font-label: [object Object];
+  --typography-label-font-size: 16;
+  --typography-label-text-decoration: none;
+  --typography-label-font-family: Roboto;
+  --typography-label-font-weight: 400;
+  --typography-label-font-style: normal;
+  --typography-label-font-stretch: normal;
+  --typography-label-letter-spacing: 0;
+  --typography-label-line-height: 19.2;
+  --typography-label-paragraph-indent: 0;
+  --typography-label-paragraph-spacing: 0;
+  --typography-label-text-case: none;
 }
