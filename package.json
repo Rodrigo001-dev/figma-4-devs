@@ -2,5 +2,11 @@
   "name": "figma-4-devs",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "style-dictionary build"
+  },
+  "dependencies": {
+    "style-dictionary": "^3.7.2"
+  }
 }
